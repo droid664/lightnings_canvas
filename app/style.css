@@ -1,0 +1,21 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+#app {
+  position: relative;
+  background: black;
+  height: 100vh;
+}
+
+#canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
